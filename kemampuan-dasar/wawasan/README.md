@@ -152,14 +152,14 @@ Ada berbagai sumber ide untuk produk perangkat lunak seperti riset pasar. Langka
 
 Proses ini juga terkait dengan kegiatan non-teknis seperti sumber daya manusia, manajemen risiko, kekayaan intelektual, penganggaran, manajemen krisis, dll.
 
-<br/><strong><h3>Perencanaan 
+<strong><h3>Perencanaan 
 </strong></h3>
 Tugas penting dalam membuat program perangkat lunak adalah memahami persyaratan. Para insinyur perangkat lunak harus menerima ide klien dan menyesuaikannya dengan proses kerja.
 
-<br/><strong><h3>Merancang</strong></h3>
+<strong><h3>Merancang</strong></h3>
 Setelah menetapkan persyaratan, para insinyur mulai membuat dokumen desain perangkat lunak. Desain perangkat lunak berarti desain tingkat tinggi dari modul utama dengan gambaran lengkap tentang bagaimana bagian-bagiannya cocok bersama. Bahasa, sistem operasi, dan komponen perangkat keras harus jelas pada tahap ini.
 
-<br/><strong><h3>Implementasi, pengujian, dan pendokumentasian 
+<strong><h3>Implementasi, pengujian, dan pendokumentasian 
 </strong></h3>
 Ada 3 proses selanjutnya yang digabungkan:
 
@@ -167,8 +167,119 @@ Ada 3 proses selanjutnya yang digabungkan:
 - pengujian - mencari cacat
 - mendokumentasikan - membuat dokumen desain bagian dalam perangkat lunak, API juga dapat disertakan
 
-<br/><strong><h3>Penerapan dan pemeliharaan </strong></h3>
+<strong><h3>Penerapan dan pemeliharaan </strong></h3>
 
 Penyebaran termasuk instalasi, kustomisasi, pengujian, dan mungkin periode evaluasi yang lebih lama.
 Pelatihan dan dukungan perangkat lunak penting karena perangkat lunak hanya efektif jika digunakan dengan benar.
 Memelihara dan meningkatkan perangkat lunak adalah tahap untuk mengatasi kesalahan atau persyaratan baru, biasanya membutuhkan banyak waktu dan usaha.
+
+<hr />
+<br />
+
+<h2>Pengembangan perangkat lunak yang gesit</h2>
+
+<br /><h3>Sejarah</h3>
+
+Metode pengembangan perangkat lunak berulang dan inkremental dapat ditelusuri kembali pada awal 1957, dengan manajemen proyek evolusioner dan pengembangan perangkat lunak adaptif muncul pada awal 1970-an. Selama tahun 1990-an, sejumlah metode pengembangan perangkat lunak ringan berevolusi sebagai reaksi terhadap metode kelas berat yang berlaku yang oleh para kritikus digambarkan sebagai terlalu diatur, direncanakan, dan dikelola secara mikro. Meskipun semua ini berasal sebelum publikasi Agile Manifesto, mereka sekarang secara kolektif disebut sebagai metode pengembangan perangkat lunak tangkas. Pada tahun 2001, tujuh belas pengembang perangkat lunak bertemu di sebuah resor di Snowbird, Utah untuk membahas metode pengembangan ringan.
+
+Bersama-sama mereka menerbitkan Manifesto untuk Pengembangan Perangkat Lunak Agile. Pada tahun 2005, sebuah kelompok yang dipimpin oleh Cockburn dan Highsmith menulis adendum prinsip manajemen proyek, Deklarasi Interdependensi PM, untuk memandu manajemen proyek perangkat lunak sesuai dengan metode pengembangan perangkat lunak yang gesit. Pada tahun 2009, sebuah kelompok yang bekerja dengan Martin menulis perpanjangan prinsip pengembangan perangkat lunak, Manifesto Pengerjaan Perangkat Lunak, untuk memandu pengembangan perangkat lunak yang gesit sesuai dengan perilaku dan penguasaan profesional.
+
+<br/><h3>Ringkasan</h3>
+
+Pair programming, teknik pengembangan tangkas yang digunakan oleh XP. Sebagian besar metode pengembangan tangkas memecah pekerjaan pengembangan produk menjadi peningkatan kecil yang meminimalkan jumlah perencanaan dan desain di muka. Melalui pengembangan inkremental, produk memiliki ruang untuk «sering gagal dan lebih awal» di setiap fase berulang alih-alih secara drastis pada tanggal rilis final. Perangkat lunak yang berfungsi adalah ukuran utama kemajuan.
+
+Keuntungan utama dari pendekatan tangkas adalah kecepatan ke pasar dan mitigasi risiko.
+
+<br /><h3>Komunikasi yang efisien dan tatap muka</h3>
+
+Prinsip ke-6 dari manifesto tangkas untuk pengembangan perangkat lunak menyatakan «Metode penyampaian informasi yang paling efisien dan efektif ke dan di dalam tim pengembangan adalah percakapan tatap muka». Apa pun metode pengembangan yang diikuti, setiap tim harus menyertakan perwakilan pelanggan . Perwakilan ini disetujui oleh pemangku kepentingan untuk bertindak atas nama mereka dan membuat komitmen pribadi untuk tersedia bagi pengembang untuk menjawab pertanyaan selama iterasi. Pada akhir setiap iterasi, pemangku kepentingan proyek bersama dengan perwakilan pelanggan meninjau kemajuan dan mengevaluasi kembali prioritas dengan tujuan untuk mengoptimalkan pengembalian investasi dan memastikan keselarasan dengan kebutuhan pelanggan dan tujuan perusahaan.
+
+Dalam pengembangan perangkat lunak yang gesit, radiator informasi adalah tampilan fisik, papan dengan catatan tempel atau sejenisnya, yang terletak mencolok di dekat tim pengembangan, di mana orang yang lewat dapat melihatnya. Ini menyajikan ringkasan terkini dari status pengembangan produk. Indikator lampu build juga dapat digunakan untuk memberi tahu tim tentang status pengembangan produk mereka saat ini.
+
+<br/><h2>Filsafat</h2>
+
+Dibandingkan dengan rekayasa perangkat lunak tradisional, pengembangan perangkat lunak tangkas terutama menargetkan sistem yang kompleks dan pengembangan produk dengan karakteristik dinamis, non-deterministik, dan non-linear. Praktisi yang gesit akan berusaha mengurangi lompatan keyakinan yang diperlukan sebelum bukti nilai apa pun dapat diperoleh. Argumen dasar ini dan pengalaman industri sebelumnya, yang dipelajari dari kesuksesan dan kegagalan selama bertahun-tahun, telah membantu membentuk pengembangan agile untuk pengembangan adaptif, iteratif, dan evolusioner. Metode pengembangan ada pada kontinum dari adaptif ke prediktif.
+
+Metode pengembangan perangkat lunak tangkas terletak pada sisi adaptif dari kontinum ini. Salah satu kunci dari metode pengembangan adaptif adalah pendekatan gelombang bergulir untuk perencanaan jadwal, yang mengidentifikasi tonggak tetapi meninggalkan fleksibilitas di jalur untuk mencapainya, dan juga memungkinkan tonggak itu sendiri berubah. Secara ekstrem, tim prediktif dapat melaporkan dengan tepat fitur dan tugas apa yang direncanakan untuk keseluruhan proses pengembangan.
+
+Salah satu perbedaan antara metode pengembangan perangkat lunak tangkas dan air terjun adalah pendekatan kualitas dan pengujian. Namun, dalam pengembangan perangkat lunak tangkas, pengujian diselesaikan dalam iterasi yang sama seperti pemrograman. Setelah pengguna mengetahui nilai sebenarnya dari perangkat lunak yang diperbarui, mereka dapat membuat keputusan yang lebih baik tentang masa depan perangkat lunak. Pendekatan berulang ini mendukung produk daripada pola pikir proyek.
+
+Pengembangan produk berulang memungkinkan perangkat lunak berkembang dalam menanggapi perubahan lingkungan bisnis atau kebutuhan pasar. Dalam sebuah surat kepada IEEE Computer, Steven Rakitin menyatakan sinisme tentang pengembangan perangkat lunak yang gesit, menyebutnya sebagai "upaya lain untuk melemahkan disiplin rekayasa perangkat lunak" dan menerjemahkan "perangkat lunak yang berfungsi melalui dokumentasi yang komprehensif" sebagai "kami ingin menghabiskan seluruh waktu kami untuk coding. Ini dibantah oleh para pendukung pengembangan perangkat lunak tangkas, yang menyatakan bahwa pengembang harus menulis dokumentasi jika itu adalah cara terbaik untuk mencapai tujuan yang relevan, tetapi seringkali ada cara yang lebih baik untuk mencapai tujuan tersebut daripada menulis dokumentasi statis.
+
+<br/><h3>Penilaian internal</h3>
+
+Ada juga penilaian mandiri yang gesit untuk menentukan apakah tim menggunakan praktik pengembangan perangkat lunak yang gesit .
+
+<br/><h3>Kurangnya desain produk secara keseluruhan</h3>
+
+Tujuan pengembangan perangkat lunak tangkas adalah untuk lebih fokus pada produksi perangkat lunak yang berfungsi dan lebih sedikit pada dokumentasi. Salah satu fitur utama dari pengembangan perangkat lunak tangkas adalah iteratif.
+
+<br/><h3>Menambahkan cerita ke iterasi yang sedang berlangsung</h3>
+
+Dalam pengembangan perangkat lunak tangkas, cerita biasanya digunakan untuk menentukan persyaratan dan iterasi adalah periode waktu yang singkat di mana tim berkomitmen untuk tujuan tertentu. Tim harus berurusan dengan informasi baru, yang dapat menghasilkan tugas tambahan untuk sebuah cerita.
+
+<br/><h3>Kurangnya dukungan sponsor</h3>
+
+Pengembangan perangkat lunak tangkas sering diimplementasikan sebagai upaya akar rumput dalam organisasi oleh tim pengembangan perangkat lunak yang mencoba mengoptimalkan proses pengembangan mereka dan memastikan konsistensi dalam siklus hidup pengembangan perangkat lunak.
+
+<br/><h3>Peran pemilik produk tidak diisi dengan benar
+</h3>
+
+Pemilik produk bertanggung jawab untuk mewakili bisnis dalam aktivitas pengembangan dan seringkali merupakan peran yang paling menuntut. Kesalahan umum adalah peran pemilik produk diisi oleh seseorang dari tim pengembangan.
+
+<br/><h3>Tim tidak fokus
+</h3>
+
+
+Pengembangan perangkat lunak yang gesit membutuhkan tim untuk memenuhi komitmen produk, yang berarti mereka harus fokus pada pekerjaan hanya untuk produk itu.
+
+<br/><h3>Persiapan/perencanaan yang berlebihan
+</h3>
+
+
+Ini adalah jebakan umum bagi tim yang kurang terbiasa dengan pengembangan perangkat lunak tangkas di mana tim merasa berkewajiban untuk memiliki pemahaman dan spesifikasi lengkap dari semua cerita.
+
+<br/><h3>Pemecahan masalah dalam standup harian
+</h3>
+
+Standup harian harus menjadi pertemuan yang terfokus dan tepat waktu di mana semua anggota tim menyebarkan informasi. Jika pemecahan masalah terjadi, seringkali hanya melibatkan anggota tim tertentu dan berpotensi bukan penggunaan waktu terbaik seluruh tim.
+
+
+<br/><h3>Menugaskan tugas
+</h3>
+
+Salah satu manfaat yang dimaksudkan dari pengembangan perangkat lunak tangkas adalah memberdayakan tim untuk membuat pilihan, karena mereka paling dekat dengan masalah.
+
+
+<br/><h3>Scrum master sebagai kontributor
+</h3>
+
+Dalam kerangka Scrum, yang mengklaim konsisten dengan nilai dan prinsip tangkas, peran master scrum bertanggung jawab untuk memastikan proses scrum diikuti dan untuk melatih tim scrum melalui proses itu. Meskipun tidak dilarang oleh kerangka kerja Scrum, master scrum perlu memastikan bahwa mereka memiliki kapasitas untuk bertindak sebagai master scrum terlebih dahulu dan tidak mengerjakan tugas pengembangan.
+
+
+<br/><h3>Kurangnya otomatisasi pengujian
+</h3>
+
+Karena sifat pengembangan tangkas yang berulang, beberapa putaran pengujian sering diperlukan. Otomatisasi pengujian juga mendukung refactoring lanjutan yang diperlukan oleh pengembangan perangkat lunak berulang.
+
+
+<br/><h3>Membiarkan hutang teknis menumpuk
+</h3>
+
+Saat sistem berkembang, penting untuk melakukan refactor karena entropi sistem meningkat secara alami. Seiring waktu kurangnya pemeliharaan konstan menyebabkan peningkatan cacat dan biaya pengembangan.
+
+
+<br/><h3>Mencoba mengambil terlalu banyak dalam sebuah iterasi
+</h3>
+
+Kesalahpahaman yang umum adalah bahwa pengembangan perangkat lunak tangkas memungkinkan perubahan terus-menerus, namun backlog iterasi adalah kesepakatan tentang pekerjaan apa yang dapat diselesaikan selama iterasi. Pengembangan perangkat lunak tangkas memperbaiki waktu, kualitas, dan idealnya sumber daya terlebih dahulu, sementara cakupannya tetap bervariasi. Upaya untuk menambahkan ruang lingkup ke waktu tetap dan sumber daya pengembangan perangkat lunak tangkas dapat mengakibatkan penurunan kualitas.
+
+
+<br/><h3>Artikel utama: Manajemen tangkas
+</h3>
+
+Manajemen proyek tangkas adalah proses pengembangan berulang, di mana umpan balik terus dikumpulkan dari pengguna dan pemangku kepentingan untuk menciptakan pengalaman pengguna yang tepat. Metode yang berbeda dapat digunakan untuk melakukan proses tangkas, ini termasuk scrum, pemrograman ekstrim, lean dan kanban. Istilah manajemen tangkas diterapkan pada metode iteratif, inkremental dalam mengelola aktivitas desain dan pembangunan teknik, teknologi informasi, dan area bisnis lainnya yang bertujuan untuk menyediakan pengembangan produk atau layanan baru dengan cara yang sangat fleksibel dan interaktif, berdasarkan prinsip-prinsip yang diungkapkan dalam Manifesto untuk Pengembangan Perangkat Lunak Agile. Metrik manajemen proyek tangkas membantu mengurangi kebingungan, mengidentifikasi titik lemah, dan mengukur kinerja tim sepanjang siklus pengembangan.
+
+Rantai pasokan yang gesit dapat meningkatkan dan mengurangi kapasitasnya dengan cepat, sehingga dapat beradaptasi dengan permintaan pelanggan yang berubah dengan cepat. Teknik Agile X juga bisa disebut manajemen proyek ekstrim. Perbedaan utama antara pengembangan tangkas dan berulang adalah bahwa metode tangkas menyelesaikan sebagian kecil dari kiriman di setiap siklus pengiriman, sementara metode berulang mengembangkan seluruh rangkaian kiriman dari waktu ke waktu, menyelesaikannya di dekat akhir proyek. Metode iteratif dan tangkas dikembangkan sebagai reaksi terhadap berbagai hambatan yang berkembang dalam bentuk organisasi proyek yang lebih berurutan.
+
+Manajemen tangkas juga menawarkan kerangka kerja sederhana yang mempromosikan komunikasi dan refleksi tentang pekerjaan masa lalu di antara anggota tim. Tim yang menggunakan perencanaan air terjun tradisional dan mengadopsi cara pengembangan yang gesit biasanya melalui fase transformasi dan sering kali membutuhkan bantuan dari pelatih gesit yang membantu memandu tim melalui transformasi yang lebih mulus. Pendekatan manajemen tangkas juga telah digunakan dan disesuaikan dengan sektor bisnis dan pemerintah.
